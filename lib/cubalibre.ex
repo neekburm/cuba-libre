@@ -8,11 +8,11 @@ defmodule Cubalibre do
 
   ## Examples
 
-      iex> Cubalibre.hello()
-      :world
+      iex> board = Cubalibre.new_board()
+      iex> board.regions.havana.name == "Havana"
 
   """
-  def hello do
-    :world
+  def new_board do
+    Cubalibre.Board.new()
   end
 end

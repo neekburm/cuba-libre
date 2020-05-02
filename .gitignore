@@ -22,3 +22,8 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 cubalibre-*.tar
 
+*.beam
+
+/config/*.secret.exs
+/.history
+.elixir_ls/
